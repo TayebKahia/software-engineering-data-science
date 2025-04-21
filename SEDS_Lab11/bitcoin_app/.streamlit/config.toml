@@ -1,0 +1,14 @@
+[server]
+# The port where the server will listen for browser connections.
+# Default: 8501
+port= 8502              # Set the port to 8501.
+headless = true         # Run Streamlit in headless mode (no browser pop-up).
+enableCORS = false      # Disable CORS restrictions (useful for APIs).
+
+enableWebsocketCompression = true  # Compress data sent over websockets.
+[theme]
+primaryColor="#1E90FF"
+backgroundColor="#F5F5F5"
+secondaryBackgroundColor="#D3D3D3"
+textColor="#000000"
+font="sans serif"
